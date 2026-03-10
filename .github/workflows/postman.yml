@@ -5,7 +5,6 @@ on: push
 jobs:
   automated-api-tests:
     runs-on: ubuntu-latest
-  using: 'node24'
     steps:
       - uses: actions/checkout@v4
       - name: Install Postman CLI
