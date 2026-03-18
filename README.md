@@ -7,14 +7,13 @@ This project demonstrates automated API testing using Postman CLI integration wi
  - Secure API key using GitHub Secrets
  - Automated test execution on push
 
-**Tech Stack**
+**Tools/File Involved**
 - Postman CLI
 - GitHub Actions
 - YAML
 
-**How it works**
-YAML
-- Checkout repo
-- Install Postman CLI
-- Authenticate using API key
-- Run Postman collection
+**Steps of Workflow**
+1. Checkout repo
+2. Install Postman CLI
+3. Authenticate using API key
+4. Run Postman collection
